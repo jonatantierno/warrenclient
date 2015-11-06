@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+function myFunction() {
+
+
+}
+
+$("button").click(function(){
+    $.ajax({url: "google.es", success: function(result){
+        alert ("boton pulsado");
+    }});
+});
+</script>
+</head>
+  Inversión:<br>
+  <input type="number" name="valor" value="100">
+  <br>
+  <button type="button">Try it</button>
